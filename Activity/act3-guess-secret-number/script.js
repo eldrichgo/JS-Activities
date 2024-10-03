@@ -3,7 +3,7 @@ var attempts = 0;
 var guessedNumber = 0;
 
 console.log("Welcome to the secret number guessing game!");
-// do while loop
+
 do {
     guessedNumber = prompt("Guess the secret number (between 0 and 10): ");
     attempts++;
